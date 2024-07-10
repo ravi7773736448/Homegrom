@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("");
+  
+ 
+}
+.navbar{
+    position: fixed;
+    box-shadow: 10px 10px 10px black;
+    margin-left:75px;
+    margin-right: 75px;
+   align-items: center;
+    justify-content: center;
+    width: 80vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.head{
+    margin-top: 5px;
+    color: green;
+}
+.list{
+    text-decoration: none;
+   cursor: pointer;
+    padding: 10px;
+}
+a:hover{
+    color: rgb(155, 155, 100);
+}
+.text{
+    margin-top: 170px;
+    margin-left: 160px;
+    font-size: larger;
+    float: left;
+    clear: left;
+   
+}
+.btn{
+    height:45px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: black;
+    color: rgb(242, 236, 236);
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 5px 5px 5px green;
+}
+.box1{
+    background-image: url("img11.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+    float: right;
+    clear: right;
+    margin-top: 150px;
+}
+
+.box2{
+    background-image: url("img12.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+   
+    height: 200px;
+    width: 250px;
+    float: right;
+    clear: right;
+    margin-top: 20px;
+    margin-right: 250px;
+}
+.box3{
+    background-image: url("img13.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  
+    height: 200px;
+    width: 250px;
+    float: right;
+    clear: right;
+    margin-top: 20px;
+}
+.text1{
+   
+    border-radius: 5px;
+    margin-top: 800px;
+    text-align: center;
+   
+}
+.flex{
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box{
+    margin: 80px;
+    height: 250px;
+    width: 300px;
+    
+    border-radius: 15px;
+}
+.box:hover{
+    box-shadow: 5px 5px 5px yellow;
+}
+.child1{
+    background-image:url("img15.jpg") ;
+    background-position: center;
+    background-size: cover;
+}
+.child2{
+    background-image: url("https://img.freepik.com/free-photo/professional-washer-blue-uniform-washing-luxury-car-with-water-gun-open-air-car-wash_496169-333.jpg?t=st=1719198877~exp=1719202477~hmac=b152ed798b0eb1fd9fa36377c1bc7e751af7136822c7ac1d699b6b35b5841e0d&w=996");
+    background-position: center;
+    background-size: cover;
+}
+.child3{
+    background-image: url("https://img.freepik.com/free-photo/businesswoman-driving-car-carefully-medium-shot_23-2148266199.jpg?t=st=1719199021~exp=1719202621~hmac=607a6bcced43b2cd6bd2b2298647e2644804949603d9d5afa4b20f2e32a67bc1&w=996");
+    background-position: center;
+    background-size: cover;
+}
+.text2{
+    text-align: center;
+}
+.flex5{
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    display: flex;
+   flex-wrap: wrap;
+    
+}
+.box10{
+    margin: 80px;
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+ }
+.icon1,.icon2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 120px;
+    height: 50px;
+    width: 50px;
+}
+.para5{
+    text-align: center;
+}
+.icon22{
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:950px) {
+    .navbar{
+        margin-left: 50px;
+    }
+    .list{
+        padding: 2px;
+    }
+    .text{
+        margin-left: 0px;
+        font-size: smaller;
+    }
+    .box1{
+        height: 100px;
+        width: 150px;
+    }
+    .box2{
+        height: 100px;
+        width: 150px;
+        margin-right: 150px;
+
+    }
+    .box3{
+      
+        height: 100px;
+        width: 150px;
+
+    }
+   
+}
+@media (max-width:886px) {
+    .flex5{
+        margin-top: 900px;
+        margin: 10px;
+    }
+    
+}
